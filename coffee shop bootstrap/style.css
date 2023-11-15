@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive !important; 
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border-radius: 10px ;
+}
+
+.all-content{
+    background: #f7f5f2;
+}
+
+/* navbar start */
+
+.navbar-toggler{
+    background-color: none !important;
+    border: none !important;
+    color: white;
+}
+#navbar{
+    background-color: #bb832e;
+}
+#logo img{
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 40px;
+    height: 80px;
+}
+
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+.navbar-nav{
+    margin-left: 80px;
+}
+/* navbar end */
+
+
+
+
+/* home section start */
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/home.jpeg);
+    background-size: cover;
+    background-position: 30%;
+} 
+
+#home .content{
+    padding-top: 210px;
+    margin-left: 60px;
+}
+
+#home .content h3{
+   font-size: 50px;
+   color: white;
+}
+
+#home .content p{
+    margin-top: 10px;
+    color: white;
+}
+
+#btn{
+    width: 150px;
+    height: 36px;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: #bb832e;
+}
+/* home section end */
+
+
+
+/* ---- about section start ---- */
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#about .container{
+    padding-top: 70px;
+
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading sapn{
+    color: #bb832e;
+}
+#about .card{
+    border-radius: 10px;
+}
+#about .card img{
+    border-radius: 10px;
+}
+#btn-about{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #bb832e;
+    color: #bb832e; 
+    border-radius: 5px;
+    font-weight: bold;
+    transform: 0.5s;
+    cursor: pointer;
+}
+#btn-about:hover{
+    background-color: #bb832e;
+    color: white;
+}
+@media screen and (max-width:982px) {
+    #about p{
+        font-size: 8px;
+    }
+    
+}
+@media screen and (max-width:766px) {
+    #about p{
+        font-size: 15px;
+    }
+    #about{
+        height: 120vh;
+    }
+    
+}
+/* ---- about section end ---- */
+
+
+
+/* ---- tob card start ---- */
+#top-cards{
+    width: 100%;
+   /* height: 60vh;*/
+    background: white;
+
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: #bb832e;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+#top-cards .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards .card:hover{
+    transform: translate(-10px);
+}
+/* ---- tob card end ---- */
+
+
+/* menu start */
+#menu{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #bb832e;
+    font-weight: bold;
+    border-bottom: 2px solid #bb832e;
+
+}
+#container2{
+    margin-top:50px;
+}
+#menu .card{
+ box-shadow: rgba(149, 157, 165, 0.2) 0px, 8px 24px;
+}
+.star i{
+    color: #bb832e;
+}
+
+#menu h3{
+    text-align: center;
+    color: #bb832e;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#menu p{
+ font-size: 16px;
+ color: #bb832e;
+ font-size: 10px;
+}
+#menu p span{
+    float: right;
+}
+/* menu end */
+
+/* product start */
+#product{
+    width: 100%;
+}
+.heading4{
+    text-align: center;
+    color: #bb832e;
+    font-size: 30px;
+    padding-top: 100px;
+    font-weight: bold;
+    border-bottom: 2px solid #bb832e;
+}
+#container3{
+    margin-top:30px;
+}
+#product h3{
+    text-align: center;
+    color: #bb832e;
+    font-size: 23px;
+}
+#product p{
+    color: #bb832e;
+    padding-top: 10px;
+}
+#product span{
+    float: right;
+    cursor: pointer;
+}
+/* product end */
